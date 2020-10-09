@@ -75,19 +75,10 @@ class Candy:
             self.generate_strings(string=string + ALPHABET[i], index=i)
 
 def test():
-    for n in range(2, 5):
+    for n in range(2, 6):
         print(f'N = {n}')
         candy = Candy(n)
         candy.solve()
         print()
 
 test()
-
-candy = Candy(5)
-candy.solve()
-
-"""
-24749537325120 / 623360743125120
-318281087 / 8016470462
-0.03970339421928004
-"""
