@@ -37,6 +37,7 @@ class Candy:
     
     def solve(self):
         self.generate_strings()
+        print(len(self.strings))
         self.generate_bases()
         self.generate_combinations()
         total = factorial(pow(self.N, 2)) // pow(factorial(self.N), self.N)
