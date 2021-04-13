@@ -1,3 +1,4 @@
 # Jane Street Puzzles
 
-Solutions to Jane Street's monthly puzzles.
+Occasional solutions to Jane Street's monthly puzzles.
+
